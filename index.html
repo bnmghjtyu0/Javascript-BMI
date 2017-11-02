@@ -20,82 +20,44 @@
             <div class="container">
                 <div class="grid-3">
                     <div class="grid-item flex-center">
-                        <a href="#"><img src="img/BMICLogo.png" alt="BMICLogo" style="width:117px;height:117px"></a>
+                        <a href="#"><img src="https://github.com/bnmghjtyu0/Javascript-BMI/blob/master/img/BMICLogo.png?raw=true" alt="BMICLogo" style="width:117px;height:117px"></a>
                     </div>
                     <div class="grid-item">
                         <div class="form-group">
                             <label for="">身高cm</label>
-                            <input type="text" class="form-control" placeholder="請輸入身高">
+                            <input type="text" id="peopleHeight" class="form-control" placeholder="請輸入身高" required>
                         </div>
                         <div class="form-group">
                             <label for="">體重kg</label>
-                            <input type="text" class="form-control" placeholder="請輸入體重">
+                            <input type="text" id="peopleWeight" class="form-control" placeholder="請輸入體重" required>
                         </div>
                     </div>
                     <div class="grid-item flex-center">
-                        <a href="#" class="btn-Result">看結果</a>
+                        <a href="#" id="calculatorBMI" class="btn-Result">看結果</a>
                     </div>
                 </div>
             </div>
 
         </header>
         <main>
-            <h3 class="title">BMI 紀錄</h3>
-            <ul class="grid-listView">
-                <li>
-                    <div class="grid-item">理想</div>
-                    <div class="grid-item"><em class="emi">EMI</em><span class="emiNum">20.90</span></div>
-                    <div class="grid-item"><em class="weight">weight</em><span class="weightNum">70</span>kg</div>
-                    <div class="grid-item"><em class="height">height</em><span class="heightNum">70</span>cm</div>
-                    <div class="grid-item"><em class="date">06-19-2017</em></div>
-                </li>
-                <li>
-                    <div class="grid-item">過輕</div>
-                    <div class="grid-item"><em class="emi">EMI</em><span class="emiNum">20.90</span></div>
-                    <div class="grid-item"><em class="weight">weight</em><span class="weightNum">70</span>kg</div>
-                    <div class="grid-item"><em class="height">height</em><span class="heightNum">70</span>cm</div>
-                    <div class="grid-item"><em class="date">06-19-2017</em></div>
-                </li>
-                <li>
-                    <div class="grid-item">過重</div>
-                    <div class="grid-item"><em class="emi">EMI</em><span class="emiNum">20.90</span></div>
-                    <div class="grid-item"><em class="weight">weight</em><span class="weightNum">70</span>kg</div>
-                    <div class="grid-item"><em class="height">height</em><span class="heightNum">70</span>cm</div>
-                    <div class="grid-item"><em class="date">06-19-2017</em></div>
-                </li>
-                <li>
-                    <div class="grid-item">輕度肥胖</div>
-                    <div class="grid-item"><em class="emi">EMI</em><span class="emiNum">20.90</span></div>
-                    <div class="grid-item"><em class="weight">weight</em><span class="weightNum">70</span>kg</div>
-                    <div class="grid-item"><em class="height">height</em><span class="heightNum">70</span>cm</div>
-                    <div class="grid-item"><em class="date">06-19-2017</em></div>
-                </li>
-                <li>
-                    <div class="grid-item">中度肥胖</div>
-                    <div class="grid-item"><em class="emi">EMI</em><span class="emiNum">20.90</span></div>
-                    <div class="grid-item"><em class="weight">weight</em><span class="weightNum">70</span>kg</div>
-                    <div class="grid-item"><em class="height">height</em><span class="heightNum">70</span>cm</div>
-                    <div class="grid-item"><em class="date">06-19-2017</em></div>
-                </li>
-                <li>
-                    <div class="grid-item">重度</div>
-                    <div class="grid-item"><em class="emi">EMI</em><span class="emiNum">20.90</span></div>
-                    <div class="grid-item"><em class="weight">weight</em><span class="weightNum">70</span>kg</div>
-                    <div class="grid-item"><em class="height">height</em><span class="heightNum">70</span>cm</div>
-                    <div class="grid-item"><em class="date">06-19-2017</em></div>
-                </li>
-              
-            </ul>
+           
+           <div class="container">
+               <div class="row">
+                <h3 class="title">BMI 紀錄</h3>
+                <ul class="grid-listView"></ul>
+               </div>
+           </div>
+           
         </main>
         <footer>
             <div class="pic">
-                <img src="img/BMICLogo_black.png" alt="">
+                <img src="https://github.com/bnmghjtyu0/Javascript-BMI/blob/master/img/BMICLogo_black.png?raw=true" alt="">
             </div>
         </footer>
     </div>
-
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
 </body>
 
 </html>
